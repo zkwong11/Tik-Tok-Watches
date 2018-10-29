@@ -1,0 +1,38 @@
+@import "variables";
+
+//Enables us to add border and padding without actually increasing the size of the block
+//Font size will set 1rem equal to 10px
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+//Set everything margin and padding to 0
+//box-sizing: border-box is inherited from html selector
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background: #fff;
+    font-size: 1.6rem;
+    font-family: $raleway, sans-serif, Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+section {
+    display: -webkit-box;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 110rem;
+    margin: 0 auto;
+}
+
+
