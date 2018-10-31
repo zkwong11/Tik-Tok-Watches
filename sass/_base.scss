@@ -1,5 +1,3 @@
-@import "variables";
-
 //Enables us to add border and padding without actually increasing the size of the block
 //Font size will set 1rem equal to 10px
 html {
@@ -20,7 +18,7 @@ html {
 body {
     background: #fff;
     font-size: 1.6rem;
-    font-family: $raleway, sans-serif, Arial, Helvetica, sans-serif;
+    font-family: $raleway, Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
 }

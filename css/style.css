@@ -1,33 +1,19 @@
-#header {
-  background: url(../img/21-Columbia-Blue.jpg) no-repeat;
-  background-size: cover;
-  height: 70rem;
-  text-align: center;
-  color: #000; }
-  #header article {
-    width: 60%;
-    margin: 0 auto; }
-  #header h1 {
-    margin: 1rem auto; }
+h1 {
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  transition: all 200ms;
+  text-shadow: 0 0 20px #ecae30; }
+  h1:hover {
+    text-shadow: 0 0 30px cyan;
+    transform: scale(1.05); }
 
-.main-nav {
-  display: flex;
-  margin-top: 2rem; }
-  .main-nav li {
-    list-style: none; }
-  .main-nav li:first-child {
-    margin-right: auto;
-    padding: 1rem 0; }
-    .main-nav li:first-child li {
-      padding: 0; }
-  .main-nav a {
-    display: block;
-    color: #fff;
-    border-radius: 4px;
-    padding: 1.5rem 3rem;
-    text-decoration: none;
-    font-weight: 800;
-    text-transform: uppercase; }
+h2 {
+  font-size: 2.4rem;
+  color: #ecae30; }
+
+p {
+  color: #e0e0e0; }
 
 html {
   box-sizing: border-box;
@@ -55,6 +41,84 @@ section {
   max-width: 110rem;
   margin: 0 auto; }
 
-h1 {
-  font-size: 3rem;
-  text-transform: uppercase; }
+#header {
+  background-image: linear-gradient(to top, #1b2022 80%, #000);
+  background-size: cover;
+  height: 75rem;
+  text-align: center;
+  color: #fff;
+  overflow: hidden; }
+  #header article {
+    width: 60%;
+    margin: 0 auto; }
+  #header h1 {
+    margin: 5rem auto 2rem auto;
+    font-weight: 900; }
+  #header p {
+    line-height: 1.8rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #ecae30; }
+  #header .header-img {
+    background-image: linear-gradient(155deg, rgba(164, 181, 189, 0.5) 0%, rgba(164, 181, 189, 0.5) 50%, transparent 50%), url(../img/watch-gold.jpeg);
+    background-size: cover;
+    border-radius: 2rem;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+    margin-top: 1rem;
+    width: 100%;
+    height: 40vh;
+    max-width: 110rem; }
+
+.main-nav {
+  display: flex;
+  margin-top: 2rem; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav li:first-child {
+    margin-right: auto; }
+  .main-nav a {
+    display: block;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1.5rem 3rem;
+    text-decoration: none;
+    font-weight: 800;
+    text-transform: uppercase; }
+  .main-nav .download {
+    background: #ecae30; }
+
+#whats-new {
+  background-color: #1b2022;
+  background-size: cover;
+  height: 75rem;
+  text-align: center;
+  color: #fff; }
+  #whats-new article {
+    width: 60%;
+    margin: 0 auto; }
+  #whats-new ul {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 2rem;
+    padding: 0 2rem; }
+  #whats-new li {
+    list-style: none; }
+  #whats-new li img {
+    width: 100%;
+    border-radius: 2rem;
+    transition: all 200ms ease-in-out; }
+    #whats-new li img:hover {
+      transform: scale(1.05);
+      filter: brightness(110%); }
+  #whats-new h2 {
+    margin-bottom: 2rem; }
+  #whats-new p {
+    margin-bottom: 2rem;
+    line-height: 1.8rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #ecae30; }
+  #whats-new .blurb {
+    padding: 2rem 2rem;
+    width: 100%;
+    display: block;
+    align-content: center; }
