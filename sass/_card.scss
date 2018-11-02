@@ -1,0 +1,59 @@
+.card-wrap {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: auto;
+}
+
+.card {
+    margin: 0 auto;
+    background-color: rgba(#000, .4);
+    height: auto;
+    width: 35%;
+    border-radius: 0rem 4rem;
+    box-shadow: 0 1.5rem 4rem rgba(#000, .15);
+
+    @include respond(phone820) {
+        width: 55%;
+    }
+
+    @include respond(phone500) {
+        width: 75%;
+    }
+
+    .card-img {
+        height: 20rem;
+        background-size: cover;
+        background-blend-mode: screen;
+        background-image: linear-gradient(to right bottom, $goldish, #000), 
+        url(../img/cw-3.jpeg);
+        border-top-right-radius: 4rem;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    }
+
+    h3 {
+        text-transform: uppercase;
+        margin: 2rem auto;
+        color: $goldish;
+    }
+
+    .card-details {
+        ul {
+            list-style: none;
+            margin: 0 auto;
+            padding-bottom: 4rem;
+            width: 80%;
+
+            li {
+                text-align: center;
+                font-size: 1.5rem;
+                padding: 1rem;
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid $goldish;
+                }
+            }
+            
+        }
+    }
+}

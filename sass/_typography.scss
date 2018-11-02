@@ -5,6 +5,14 @@ h1 {
     transition: all 200ms;
     text-shadow: 0 0 20px $goldish;
 
+    @include respond(phone820) {
+        font-size: 3rem;
+    }
+
+    @include respond(phone500) {
+        font-size: 2.6rem;
+    }
+
     &:hover {
         text-shadow: 0 0 30px rgb(0, 255, 255);
         transform: scale(1.05);
@@ -14,8 +22,51 @@ h1 {
 h2 {
     font-size: 2.4rem;
     color: $goldish;
+    text-transform: uppercase;
+
+    @include respond(phone820) {
+        font-size: 2rem;
+    }
 }
 
 p {
-    color: $para-0;
+    color: $goldish;
+
+    @include respond(phone820) {
+        font-size: 1.4rem;
+    }
+}
+
+.header-img-caption {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#footer p {
+    font-size: 1.4rem;
+
+    @include respond(phone820) {
+        font-size: 1rem !important;
+    }
+}
+
+.footer-links ul li a {
+    font-size: 1.8rem;
+
+    @include respond(phone820) {
+        font-size: 1.4rem !important;
+    }
+
+    @include respond(phone500) {
+        font-size: 1rem !important;
+    }
+
+}
+
+.blurb {
+    @include respond(phone500) {
+        font-size: 1.4rem;
+    }
 }

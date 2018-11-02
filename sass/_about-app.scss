@@ -1,0 +1,29 @@
+#about-app {
+    background-color: $dark-gray-1;
+    background-size: cover;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+
+    article {
+        width: 60%;
+        margin: 0 auto;
+
+        @include respond(phone500) {
+            width: 80%;
+        }
+    }
+
+    h2 {
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+    }
+
+    p {
+        margin-bottom: 2rem;
+        line-height: 1.8rem;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid rgba(239, 250, 255, 0.8);
+    }
+}

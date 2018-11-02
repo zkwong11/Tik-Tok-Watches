@@ -1,0 +1,43 @@
+#footer {
+    background: rgb(81, 89, 95);
+    height: auto;
+
+    p {
+        text-align: center;
+        bottom: 0;
+        padding: 3rem 0;
+        color: #fff;
+    }
+}
+
+.footer-links {
+    text-align: center;
+
+    ul {
+        list-style: none;
+        padding-top: 3rem;
+        
+        li {
+            display: inline-block;
+            padding: 0 3rem;
+
+            @include respond(phone820) {
+                padding: 0 2rem;
+            }
+
+            @include respond(phone500) {
+                padding: 0 1rem;
+            }
+
+            a {
+                text-decoration: none;
+                font-weight: 800;
+                color: #fff;
+
+                &:hover {
+                    color: $goldish;
+                }
+            }
+        }
+    }
+}
