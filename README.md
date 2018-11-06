@@ -1,2 +1,2 @@
 # VI_Web
-# Landing Page code files
+Landing Page for a mockup website using HTML, CSS with Sass and minimal JavaScript.
