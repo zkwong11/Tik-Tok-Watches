@@ -6,6 +6,10 @@
     text-align: center;
     color: #fff;
     overflow: hidden;
+
+    & .wrapper {
+        align-content: center;
+    }
     
 
     .logo-wrap {
@@ -34,9 +38,9 @@
         padding-top: 6rem;
         left: 0;
         top: 0;
-        vertical-align: middle;
-        transform: translate(35%);
-        position: absolute;
+        vertical-align: middle;;
+        align-content: center;
+        position: relative;
         z-index: 1;
 
         @include respond(phone500) {
@@ -62,8 +66,8 @@
     .header-img {
         position: absolute;
         background-image: linear-gradient(135deg, 
-            rgba($goldish, .6) 0%,
-            rgba($goldish, .6) 50%,
+            rgba($goldish, .7) 0%,
+            rgba($goldish, .7) 50%,
             transparent 50%),
             url(../img/watch-gold.jpeg);
         background-size: cover;
@@ -71,7 +75,6 @@
         background-repeat: no-repeat;
         border-bottom: 3px solid #000;
         box-shadow: 0 1.5rem 4rem rgba(#000, .2);
-        
         width: 100%;
         height: 100%;
 

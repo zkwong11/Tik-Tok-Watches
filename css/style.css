@@ -3,7 +3,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 8px;
   transition: all 200ms;
-  text-shadow: 0 0 20px #ecae30; }
+  text-shadow: 0 0 20px #f5bc4b; }
   @media only screen and (max-width: 820px) {
     h1 {
       font-size: 3rem; } }
@@ -16,14 +16,14 @@ h1 {
 
 h2 {
   font-size: 2.4rem;
-  color: #ecae30;
+  color: #f5bc4b;
   text-transform: uppercase; }
   @media only screen and (max-width: 820px) {
     h2 {
       font-size: 2rem; } }
 
 p {
-  color: #ecae30; }
+  color: #f5bc4b; }
   @media only screen and (max-width: 820px) {
     p {
       font-size: 1.4rem; } }
@@ -86,6 +86,8 @@ section {
   text-align: center;
   color: #fff;
   overflow: hidden; }
+  #header .wrapper {
+    align-content: center; }
   #header .logo-wrap {
     position: fixed;
     z-index: 3000;
@@ -107,8 +109,8 @@ section {
     left: 0;
     top: 0;
     vertical-align: middle;
-    transform: translate(35%);
-    position: absolute;
+    align-content: center;
+    position: relative;
     z-index: 1; }
     @media only screen and (max-width: 500px) {
       #header article {
@@ -120,11 +122,11 @@ section {
   #header p {
     line-height: 1.8rem;
     padding-bottom: 2rem;
-    border-bottom: 2px solid #ecae30;
+    border-bottom: 2px solid #f5bc4b;
     color: #fff; }
   #header .header-img {
     position: absolute;
-    background-image: linear-gradient(135deg, rgba(236, 174, 48, 0.6) 0%, rgba(236, 174, 48, 0.6) 50%, transparent 50%), url(../img/watch-gold.jpeg);
+    background-image: linear-gradient(135deg, rgba(245, 188, 75, 0.7) 0%, rgba(245, 188, 75, 0.7) 50%, transparent 50%), url(../img/watch-gold.jpeg);
     background-size: cover;
     background-position: 0px, -30%;
     background-repeat: no-repeat;
@@ -161,7 +163,7 @@ section {
     .main-nav a:hover {
       text-shadow: 0 0 30px cyan; }
   .main-nav .download {
-    background: #ecae30; }
+    background: #f5bc4b; }
 
 .nav-toggle-wrap {
   display: none;
@@ -271,14 +273,14 @@ section {
     height: 20rem;
     background-size: cover;
     background-blend-mode: screen;
-    background-image: linear-gradient(to right bottom, #ecae30, #000), url(../img/cw-3.jpeg);
+    background-image: linear-gradient(to right bottom, #f5bc4b, #000), url(../img/cw-3.jpeg);
     border-top-right-radius: 4rem;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); }
   .card h3 {
     text-transform: uppercase;
     margin: 2rem auto;
-    color: #ecae30; }
+    color: #f5bc4b; }
   .card .card-details ul {
     list-style: none;
     margin: 0 auto;
@@ -289,7 +291,7 @@ section {
       font-size: 1.5rem;
       padding: 1rem; }
       .card .card-details ul li:not(:last-child) {
-        border-bottom: 1px solid #ecae30; }
+        border-bottom: 1px solid #f5bc4b; }
 
 #footer {
   background: #51595f;
@@ -319,7 +321,7 @@ section {
         font-weight: 800;
         color: #fff; }
         .footer-links ul li a:hover {
-          color: #ecae30; }
+          color: #f5bc4b; }
 
 #whats-new {
   background-color: #1b2022;
